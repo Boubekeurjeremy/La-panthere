@@ -272,6 +272,7 @@ th {
     }
     h2,
     h3,
+    
     p {
         orphans: 3;
         widows: 3
@@ -1658,7 +1659,7 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align:center
 }
 
 .text-justify {

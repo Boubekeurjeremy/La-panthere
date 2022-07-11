@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+ 
 a,
 button {
     transition: all .3s ease-in-out;
@@ -134,6 +134,10 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+.color-size{
+    color:#333333!important;
+    font-size:20px;
 }
 
 .d-bloc .a-btn:hover,
@@ -683,8 +687,8 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
+.h2 {
+    font-size: 15px;
     font-family: "Open Sans";
 }
 
@@ -702,12 +706,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h4 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -724,9 +728,6 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -751,7 +752,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: black;
     padding: 40px 40px 40px 40px;
 }
 
@@ -761,7 +762,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .bgc-dark-slate-blue {
@@ -774,6 +775,9 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+.tc-color{
+    color:white!important;
 }
 
 .btn-atomic-tangerine {
@@ -1023,6 +1027,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .responsive{
+        width:100%;
     }
 }
 
