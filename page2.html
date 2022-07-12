@@ -22,6 +22,15 @@
     <title>Agence web design Lyon La Panthère</title>
 
     <!-- Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NZD1KED8L6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NZD1KED8L6');
+</script>
 
     <!-- Analytics END -->
   </head>
@@ -55,10 +64,6 @@
               <ul class="site-navigation nav navbar-nav">
                 <li>
                   <a href="index.html">Accueil</a>
-                </li>
-                <li></li>
-                <li>
-                  <a href="page2.html">page2 &gt;</a>
                 </li>
               </ul>
             </div>
@@ -98,15 +103,15 @@
               <form
                 id="form_1"
                 novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+                data-success-msg="Your message has been sent."
+                data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -115,16 +120,16 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504"> Comment nous avez-vous connu ? </label>
                   <input
                     class="form-control"
-                    type="email"
+                    type="text"
                     required
                     id="input_504"
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -171,28 +176,28 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="https://twitter.com"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="https://facebook.com"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="https://dribble.com"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="https://instagram.com"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>

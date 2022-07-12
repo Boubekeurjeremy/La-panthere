@@ -1408,7 +1408,7 @@ textarea {
 
 a {
     color: #337ab7;
-    text-decoration: none
+    font-weight:900!important
 }
 
 a:focus,
