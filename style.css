@@ -568,13 +568,12 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog {
-    width: 90%;
     max-width: 900px;
     margin: 0 auto 0;
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 75vh;
     margin: 0 auto;
 }
 
@@ -824,7 +823,7 @@ h1 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
