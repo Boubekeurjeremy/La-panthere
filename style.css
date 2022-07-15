@@ -588,7 +588,7 @@ a[data-lightbox]:focus img {
 
 #lightbox-modal .modal-dialog img {
     width:100%;
-    max-height: 65vh;
+    max-height: 75vh;
     margin: 0 auto;
 }
 
