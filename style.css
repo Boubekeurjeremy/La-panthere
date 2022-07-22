@@ -136,7 +136,7 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 .color-size{
-    color:#333333!important;
+    color:white!important;
     font-size:25px;
 }
 
@@ -753,7 +753,7 @@ h4 {
 }
 
 h2 {
-    color: #333333!important;
+    color: white!important;
 }
 
 
@@ -936,7 +936,7 @@ h2 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-        font-size:12px;
+        font-size:11px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1058,9 +1058,6 @@ h2 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-    .responsive{
-        width:100%;
     }
 }
 
