@@ -739,7 +739,11 @@ h3 {
     line-height: 1.4em;
 }
 .text{
-    width:61%;
+    width:80%;
+    margin:0 auto;
+}
+.text-form{
+    width:55%;
     margin:0 auto;
 }
 
@@ -944,6 +948,7 @@ h2 {
     }
     .responsive {
         font-size:16px!important;
+        width:80%;
         
     }
     .b-parallax {
