@@ -738,6 +738,10 @@ h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
+.text{
+    width:61%;
+    margin:0 auto;
+}
 
 h4 {
     font-size: 15px;
@@ -938,8 +942,9 @@ h2 {
         padding-right: 10px!important;
         font-size:11px;
     }
-    .responsive{
-        font-size:13px!important;
+    .responsive {
+        font-size:16px!important;
+        
     }
     .b-parallax {
         background-attachment: scroll;
