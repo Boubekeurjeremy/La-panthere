@@ -938,6 +938,9 @@ h2 {
         padding-right: 10px!important;
         font-size:11px;
     }
+    .responsive{
+        font-size:13px!important;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
